@@ -6,9 +6,9 @@
 
 ### Usage 
 ```bash
-extract_urls.sh PATH_TO_FILE [OUTPUT_FILE_PATH]\n
-OUTPUT_FILE_PATH: Path to the beatufied URLs
+extract_urls.sh PATH_TO_FILE [OUTPUT_FILE_PATH]
 ```
+OUTPUT_FILE_PATH: Path to the beatufied URLs
 
 
 2. scan
@@ -18,6 +18,6 @@ OUTPUT_FILE_PATH: Path to the beatufied URLs
 ### Usage 
 ```bash
 scan.sh HOSTS_FILE_PATH
-HOSTS_FILE_PATH: txt path with each host as a separate line
 ```
+HOSTS_FILE_PATH: txt path with each host as a separate line
 
