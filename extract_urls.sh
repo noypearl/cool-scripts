@@ -1,5 +1,5 @@
 #!/bin/bash
-URL Extractor splitter - for removing useless garbage from burp exported URLs
+#URL Extractor splitter - for removing useless garbage from burp exported URLs
 USAGE="""URL Extractor splitter - for removing useless garbage from burp exported URLs and putting in a report\n
 	  extract_urls.sh PATH_TO_FILE [OUTPUT_FILE_PATH]\n
 	  OUTPUT_FILE_PATH: Path to the beatufied URLs
