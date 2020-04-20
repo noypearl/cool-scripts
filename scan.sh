@@ -15,14 +15,14 @@ SCREENSHOTS_DIR_PATH="$OUTPUT_DIR/screenshots"
 
 # Check if argument was provided
 if [[ $# -eq 0 ]]; then
-	echo -n $USAGE
+	echo -e $USAGE
 	exit 1
 fi
 
 # Check of hosts file exists
 if  [ ! -f "$HOSTS_FILE" ]; then
     echo "File $HOSTS_FILE not found" >&2
-    echo -n $USAGE
+    echo -e $USAGE
     exit 1
 fi
 
