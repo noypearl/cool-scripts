@@ -1,5 +1,4 @@
 #!/bin/bash
-#URL Extractor splitter - for removing useless garbage from burp exported URLs
 USAGE="""URL Extractor splitter - for removing useless garbage from burp exported URLs and putting in a report\n
 	  extract_urls.sh PATH_TO_FILE [OUTPUT_FILE_PATH]\n
 	  OUTPUT_FILE_PATH: Path to the beatufied URLs
@@ -31,6 +30,6 @@ if [ "$1" != "" ]; then
 	    echo "$OUTPUT" > $PATH_TO_OUTPUT_FILE
 	    echo "Extracted URLs to $PATH_TO_OUTPUT_FILE"
      else
-	    echo "Extracted URLs: \n $OUTPUT"
+	    echo -e "Extracted URLs: \n $OUTPUT"
     fi
 fi
