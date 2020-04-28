@@ -34,4 +34,5 @@ echo "Filtering and extracting active domains"
 cat "$SUBDOMAINS_FILE_PATH" | sort | uniq | httprobe > "$ACTIVE_FILE_PATH"
 
 # screenshot all active ones
-cat" $ACTIVE_FILE_PATH" | aquatone
+echo "Screenshoting domains"
+cat "$ACTIVE_FILE_PATH" | aquatone
